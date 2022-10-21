@@ -7,20 +7,17 @@ public class AlgorithmComplexityTest {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a string:");
         String inputString = scanner.nextLine();
-        /*codes below here */
-        int[] frequentChar = new int[256];                         //{1}
-        for (int i = 0; i < inputString.length(); i++) {           //{2}
-            /* Tìm ví trí tương ứng của ký tự trong bảng ASCII */
-            int ascii = (int) inputString.charAt(i);               //{3}
-            /* Tăng giá trị tần suất */
-            frequentChar[ascii] += 1;      // frquenchar[111] = freqyebcgar[111] + 1                         //{4}
+        int[] frequentChar = new int[256];
+        for (int i = 0; i < inputString.length(); i++) {
+            int ascii = (int) inputString.charAt(i);
+            frequentChar[ascii] += 1;
         }
-        int max = 0;                                             //{5}
-        char character = (char) 255; /* empty character */      //{6}
-        for (int j = 0; j < 255; j++) {                         //{7}
-            if (frequentChar[j] > max) {                        //{8}
-                max = frequentChar[j];                          //{9}
-                character = (char) j;                           //{10}
+        int max = 0;
+        char character = (char) 255;
+        for (int j = 0; j < 255; j++) {
+            if (frequentChar[j] > max) {
+                max = frequentChar[j];
+                character = (char) j;
             }
         }
         System.out.println("The most appearing letter is '" + character + "' with a frequency of " + max + " times");

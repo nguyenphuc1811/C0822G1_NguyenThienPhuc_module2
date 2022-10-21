@@ -29,10 +29,16 @@ public class BinarySearch {
             array[i] = Integer.parseInt(scanner.nextLine());
         }
         System.out.println("mảng hiện tại là");
+        Arrays.sort(array);
         System.out.println(Arrays.toString(array));
         System.out.println("Nhập số cần tìm");
         int number = Integer.parseInt(scanner.nextLine());
-        System.out.println(findNumber(array, number, 0, array.length));
+        if (findNumber(array, number, 0, array.length)) {
+            System.out.println("có " + number + " trong mảng");
+        } else {
+            System.out.println("Không có " + number + " trong mảng");
+
+        }
 
     }
 

@@ -20,18 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c798b41e-9e5f-47b8-b34c-d5b85136a511" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/practice/BinaryResearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/practice/quiz_complexity/AlgorithmComplexityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/practice/quiz_complexity/AlgorithmComplexityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/practice/quiz_complexity/AlgorithmComplexityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +57,7 @@
       <recent name="E:\codegym\C0822G1-NguyenThienPhuc\module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlgorithmComplexityTest">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration name="AlgorithmComplexityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss13_thuat_toan_tim_kiem.practice.quiz_complexity.AlgorithmComplexityTest" />
       <module name="module2" />
@@ -93,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss13_thuat_toan_tim_kiem.exercise.BinarySearch" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss13_thuat_toan_tim_kiem.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="module2" />
@@ -107,9 +111,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.BinaryResearch" />
       <item itemvalue="Application.AlgorithmComplexityTest" />
+      <item itemvalue="Application.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.AlgorithmComplexityTest" />
         <item itemvalue="Application.BinaryResearch" />
       </list>
@@ -127,6 +133,7 @@
       <updated>1666340092508</updated>
       <workItem from="1666340096282" duration="6652000" />
       <workItem from="1666347252983" duration="189000" />
+      <workItem from="1666350853155" duration="328000" />
     </task>
     <servers />
   </component>
@@ -146,22 +153,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1666347216564">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1666351187828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666347216564" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1666347216564">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666351187828" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1666351187828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1666347216564" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1666347216564">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1666351187828" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1666351187828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1666347216564" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1666347216564">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1666351187828" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1666351187828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1666347216564" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1666351187828" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1666347216564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
