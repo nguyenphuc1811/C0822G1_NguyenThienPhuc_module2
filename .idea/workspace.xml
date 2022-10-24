@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c798b41e-9e5f-47b8-b34c-d5b85136a511" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/exercise/QuizInsertSortExamble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/exercise/QuizInsertSortSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/practice/examble_bubble/BubbbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/practice/setting_bubble/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/practice/setting_quiz_slection_sort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/practice/quiz_complexity/AlgorithmComplexityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/practice/quiz_complexity/AlgorithmComplexityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +55,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -57,33 +68,7 @@
       <recent name="E:\codegym\C0822G1-NguyenThienPhuc\module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
-    <configuration name="AlgorithmComplexityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13_thuat_toan_tim_kiem.practice.quiz_complexity.AlgorithmComplexityTest" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss13_thuat_toan_tim_kiem.practice.quiz_complexity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryResearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13_thuat_toan_tim_kiem.practice.BinaryResearch" />
-      <module name="module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss13_thuat_toan_tim_kiem.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuizInsertSortExamble">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss13_thuat_toan_tim_kiem.exercise.BinarySearch" />
       <module name="module2" />
@@ -97,27 +82,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="BubbbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_quiz_sort.practice.examble_bubble.BubbbleSort" />
       <module name="module2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14_quiz_sort.practice.examble_bubble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_quiz_sort.practice.setting_bubble.BubbleSortByStep" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14_quiz_sort.practice.setting_bubble.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizInsertSortExamble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_quiz_sort.exercise.QuizInsertSortExamble" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14_quiz_sort.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuizInsertSortSetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_quiz_sort.exercise.QuizInsertSortSetting" />
+      <module name="module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14_quiz_sort.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.BinaryResearch" />
-      <item itemvalue="Application.AlgorithmComplexityTest" />
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.BubbbleSort" />
+      <item itemvalue="Application.BubbleSortByStep" />
+      <item itemvalue="Application.QuizInsertSortSetting" />
+      <item itemvalue="Application.QuizInsertSortExamble" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuizInsertSortExamble" />
+        <item itemvalue="Application.QuizInsertSortSetting" />
+        <item itemvalue="Application.BubbbleSort" />
+        <item itemvalue="Application.BubbleSortByStep" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.AlgorithmComplexityTest" />
-        <item itemvalue="Application.BinaryResearch" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +164,9 @@
       <workItem from="1666340096282" duration="6652000" />
       <workItem from="1666347252983" duration="189000" />
       <workItem from="1666350853155" duration="328000" />
+      <workItem from="1666574180836" duration="1136000" />
+      <workItem from="1666582487038" duration="1773000" />
+      <workItem from="1666593058225" duration="4977000" />
     </task>
     <servers />
   </component>
@@ -153,22 +186,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1666351187828">
+    <state width="1323" height="480" key="GridCell.Tab.0.bottom" timestamp="1666600370283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666351187828" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1666351187828">
+    <state width="1323" height="480" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666600370283" />
+    <state width="1323" height="480" key="GridCell.Tab.0.center" timestamp="1666600370283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1666351187828" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1666351187828">
+    <state width="1323" height="480" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1666600370283" />
+    <state width="1323" height="480" key="GridCell.Tab.0.left" timestamp="1666600370283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1666351187828" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1666351187828">
+    <state width="1323" height="480" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1666600370283" />
+    <state width="1323" height="480" key="GridCell.Tab.0.right" timestamp="1666600370283">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1666351187828" />
+    <state width="1323" height="480" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1666600370283" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1666347216564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -185,5 +218,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1666347216564" />
+    <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1666600327534">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1666600327534" />
   </component>
 </project>

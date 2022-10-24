@@ -36,10 +36,8 @@ public class BinarySearch {
         if (findNumber(array, number, 0, array.length)) {
             System.out.println("có " + number + " trong mảng");
         } else {
-            System.out.println("Không có " + number + " trong mảng");
-
+            System.out.println("khong có " + number + " trong mảng");
         }
-
     }
 
 }
