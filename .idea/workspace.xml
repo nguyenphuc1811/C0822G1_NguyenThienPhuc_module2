@@ -20,16 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c798b41e-9e5f-47b8-b34c-d5b85136a511" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/exercise/QuizInsertSortExamble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/exercise/QuizInsertSortSetting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/practice/examble_bubble/BubbbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/practice/setting_bubble/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_quiz_sort/practice/setting_quiz_slection_sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/controller/FuramaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/model/facility/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/model/facility/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/model/facility/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/model/person/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/sevices/BookingManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/sevices/CustomerManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/sevices/EmployeeManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/sevices/FacilityManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/sevices/PromotionManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/exercise/validate_name_class/NameExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/exercise/validate_name_class/NameExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/exercise/validate_phone_number/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/exercise/validate_phone_number/PhoneNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/practice/crawl_list_sing/CrawlSongExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/practice/validate_account/AccountExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/practice/validate_account/AccountExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/practice/validate_email/EmailExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss19_string_regex/practice/validate_email/EmailExampleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module2/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_thuat_toan_tim_kiem/exercise/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module2/ss14_quiz_sort/exercise/QuizInsertSortExamble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module2/ss14_quiz_sort/exercise/QuizInsertSortExamble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17_io_binary_file_serialization/exercise/product_managerment_copy_to_binary_file/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17_io_binary_file_serialization/exercise/product_managerment_copy_to_binary_file/controller/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +72,35 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ss14_quiz_sort/exercise" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ss16_io_text_file.practice.find_max" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\codegym\C0822G1-NguyenThienPhuc\module2\src\ss14_quiz_sort\exercise" />
+      <recent name="E:\codegym\C0822G1-NguyenThienPhuc\module2\src" />
+      <recent name="E:\codegym\C0822G1-NguyenThienPhuc\module2\src\ss14_quiz_sort" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\codegym\C0822G1-NguyenThienPhuc\module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuizInsertSortExamble">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13_thuat_toan_tim_kiem.exercise.BinarySearch" />
+  <component name="RunManager" selected="Application.PhoneNumberTest">
+    <configuration name="AccountExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.practice.validate_account.AccountExampleTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13_thuat_toan_tim_kiem.exercise.*" />
+          <option name="PATTERN" value="ss19_string_regex.practice.validate_account.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14_quiz_sort.practice.examble_bubble.BubbbleSort" />
+    <configuration name="CrawlSongExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.practice.crawl_list_sing.CrawlSongExample" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14_quiz_sort.practice.examble_bubble.*" />
+          <option name="PATTERN" value="ss19_string_regex.practice.crawl_list_sing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortByStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14_quiz_sort.practice.setting_bubble.BubbleSortByStep" />
+    <configuration name="NameExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.exercise.validate_name_class.NameExampleTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14_quiz_sort.practice.setting_bubble.*" />
+          <option name="PATTERN" value="ss19_string_regex.exercise.validate_name_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuizInsertSortExamble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14_quiz_sort.exercise.QuizInsertSortExamble" />
+    <configuration name="PhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.exercise.validate_phone_number.PhoneNumber" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14_quiz_sort.exercise.*" />
+          <option name="PATTERN" value="ss19_string_regex.exercise.validate_phone_number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuizInsertSortSetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14_quiz_sort.exercise.QuizInsertSortSetting" />
+    <configuration name="PhoneNumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.exercise.validate_phone_number.PhoneNumberTest" />
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14_quiz_sort.exercise.*" />
+          <option name="PATTERN" value="ss19_string_regex.exercise.validate_phone_number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.BubbbleSort" />
-      <item itemvalue="Application.BubbleSortByStep" />
-      <item itemvalue="Application.QuizInsertSortSetting" />
-      <item itemvalue="Application.QuizInsertSortExamble" />
+      <item itemvalue="Application.AccountExampleTest" />
+      <item itemvalue="Application.CrawlSongExample" />
+      <item itemvalue="Application.NameExampleTest" />
+      <item itemvalue="Application.PhoneNumber" />
+      <item itemvalue="Application.PhoneNumberTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuizInsertSortExamble" />
-        <item itemvalue="Application.QuizInsertSortSetting" />
-        <item itemvalue="Application.BubbbleSort" />
-        <item itemvalue="Application.BubbleSortByStep" />
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.PhoneNumberTest" />
+        <item itemvalue="Application.NameExampleTest" />
+        <item itemvalue="Application.PhoneNumber" />
+        <item itemvalue="Application.CrawlSongExample" />
+        <item itemvalue="Application.AccountExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +193,18 @@
       <workItem from="1666574180836" duration="1136000" />
       <workItem from="1666582487038" duration="1773000" />
       <workItem from="1666593058225" duration="4977000" />
+      <workItem from="1666707900866" duration="579000" />
+      <workItem from="1666708555968" duration="675000" />
+      <workItem from="1666720292604" duration="590000" />
+      <workItem from="1666740845751" duration="1649000" />
+      <workItem from="1666756571821" duration="2903000" />
+      <workItem from="1666765544456" duration="6769000" />
+      <workItem from="1666841757302" duration="4085000" />
+      <workItem from="1666852503139" duration="7984000" />
+      <workItem from="1666863890373" duration="1541000" />
+      <workItem from="1667034884617" duration="4575000" />
+      <workItem from="1667115444758" duration="2596000" />
+      <workItem from="1667188875176" duration="7774000" />
     </task>
     <servers />
   </component>
@@ -186,22 +224,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="480" key="GridCell.Tab.0.bottom" timestamp="1666600370283">
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1666845702543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="480" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1666600370283" />
-    <state width="1323" height="480" key="GridCell.Tab.0.center" timestamp="1666600370283">
+    <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1666845702543" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1666845661580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="480" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1666600370283" />
-    <state width="1323" height="480" key="GridCell.Tab.0.left" timestamp="1666600370283">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1666845661580" />
+    <state x="32" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1666852634378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="480" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1666600370283" />
-    <state width="1323" height="480" key="GridCell.Tab.0.right" timestamp="1666600370283">
+    <state x="32" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1666852634378" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1666720851911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="480" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1666600370283" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1666720851911" />
+    <state width="1323" height="177" key="GridCell.Tab.0.bottom" timestamp="1667202522310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1667202522310" />
+    <state width="1323" height="177" key="GridCell.Tab.0.center" timestamp="1667202522310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1667202522310" />
+    <state width="1323" height="177" key="GridCell.Tab.0.left" timestamp="1667202522310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1667202522310" />
+    <state width="1323" height="177" key="GridCell.Tab.0.right" timestamp="1667202522310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1667202522310" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1666347216564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -218,9 +272,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1666347216564" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1666770908728">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1666770908728" />
+    <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1666770989852">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1666770989852" />
     <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1666600327534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1666600327534" />
+    <state x="263" y="19" key="editAsTableFormatDialogDimension" timestamp="1666771089357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="19" key="editAsTableFormatDialogDimension/0.0.1366.728@0.0.1366.728" timestamp="1666771089357" />
+    <state x="65" y="0" key="new project wizard" timestamp="1666720749242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1666720749242" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1667199258536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1667199258536" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1666859474997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1666859474997" />
   </component>
 </project>

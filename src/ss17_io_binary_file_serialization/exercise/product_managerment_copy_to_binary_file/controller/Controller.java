@@ -35,6 +35,7 @@ public class Controller {
                     System.exit(0);
                     break;
                 default:
+                    System.out.println("Nhập lại từ 1 - 4");
             }
         } while (true);
     }
