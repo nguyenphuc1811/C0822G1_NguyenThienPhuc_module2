@@ -11,8 +11,7 @@ public class ProductSevices {
 
     public void addProduct() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập id: ");
-        int id = Integer.parseInt(scanner.nextLine());
+        int id = Product.products.size() + 1;
         System.out.print("Nhập tên sản phẩm: ");
         String name = scanner.nextLine();
         System.out.print("Hãng: ");
@@ -48,16 +47,20 @@ public class ProductSevices {
     public void findProduct() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập id muốn tìm kiếm: ");
-        int id = Integer.parseInt(scanner.nextLine());
-        boolean isExit = false;
-        for (Product product : Product.products) {
-            if (product.getId() == id) {
-                System.out.println(product);
-                isExit = true;
+        try {
+            int id = Integer.parseInt(scanner.nextLine());
+            boolean isExit = false;
+            for (Product product : Product.products) {
+                if (product.getId() == id) {
+                    System.out.println(product);
+                    isExit = true;
+                }
             }
             if (!isExit) {
                 System.out.println("Không tìm thấy sản phẩm!");
             }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
