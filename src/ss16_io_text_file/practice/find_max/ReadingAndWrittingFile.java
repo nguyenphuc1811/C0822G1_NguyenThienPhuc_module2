@@ -27,7 +27,7 @@ public class ReadingAndWrittingFile {
     }
     public void writeFile(String filePath, int max){
         try {
-            FileWriter writer = new FileWriter(filePath, true);
+            FileWriter writer = new FileWriter(filePath);
             BufferedWriter bufferedWriter = new BufferedWriter(writer);
             bufferedWriter.write("Giá trị lớn nhất là: " + max);
             bufferedWriter.close();

@@ -1,13 +1,15 @@
 package case_study.controller;
 
+import case_study.sevices.EmployeeService;
 import case_study.sevices.sevices_class.EmployeeServiceImpl;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class EmployeeManagement {
-    public static void display() {
+    public static void display() throws IOException {
         Scanner scanner = new Scanner(System.in);
-        EmployeeServiceImpl employeeService = new EmployeeServiceImpl();
+        EmployeeService employeeService = new EmployeeServiceImpl();
         int selection;
         System.out.println("1. \t	Display list employees\n" +
                 "2. \t	Add new employee\n" +
@@ -24,7 +26,7 @@ public class EmployeeManagement {
                     FuramaController.display();
                     break;
                 case 2:
-                    employeeService.addEmployee();
+                    employeeService.add();
                     employeeService.display();
                     scanner.nextLine();
                     FuramaController.display();
@@ -40,11 +42,10 @@ public class EmployeeManagement {
                     FuramaController.display();
                     break;
                 case 5:
-                    FuramaController.display();
-                    break;
+                   return;
                 default:
                     System.out.println("nhap lai tu 1 - 5");
             }
-        } while (selection > 5 || selection < 1);
+        } while (true);
     }
 }

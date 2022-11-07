@@ -1,8 +1,7 @@
 package case_study.model.person;
 
-import java.util.Date;
-
 public abstract class Person {
+    String id;
     String name;
     String date;
     String gender;
@@ -10,13 +9,22 @@ public abstract class Person {
     String phoneNumber;
     String email;
 
-    public Person(String name, String date, String gender, String idCard, String phoneNumber, String email) {
+    public Person(String id,String name, String date, String gender, String idCard, String phoneNumber, String email) {
+        this.id = id;
         this.name = name;
         this.date = date;
         this.gender = gender;
         this.idCard = idCard;
         this.phoneNumber = phoneNumber;
         this.email = email;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {

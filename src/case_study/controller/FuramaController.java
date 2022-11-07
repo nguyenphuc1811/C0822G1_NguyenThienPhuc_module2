@@ -1,9 +1,10 @@
 package case_study.controller;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class FuramaController {
-    public static void display() {
+    public static void display() throws IOException {
         int selection;
         Scanner scanner = new Scanner(System.in);
         System.out.println("\tMenu\n" +

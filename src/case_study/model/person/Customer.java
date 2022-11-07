@@ -3,11 +3,11 @@ package case_study.model.person;
 public class Customer extends Person {
     private String typeOfCustomer;
     private String adress;
-    private final String DIAMOND = "Diamond";
-    private final String PLATINIUM = "Platinium";
-    private final String GOLD = "Gold";
-    private final String SILVER = "Silver";
-    private final String MEMBER = "Member";
+    public static final String DIAMOND = "Diamond";
+    public static final String PLATINIUM = "Platinium";
+    public static final String GOLD = "Gold";
+    public static final String SILVER = "Silver";
+    public static final String MEMBER = "Member";
 
     public String getTypeOfCustomer() {
         return typeOfCustomer;
@@ -25,10 +25,24 @@ public class Customer extends Person {
         this.adress = adress;
     }
 
-    public Customer(String name, String date, String gender, String idCard, String phoneNumber, String email) {
-        super(name, date, gender, idCard, phoneNumber, email);
+    public Customer(String id, String name, String date, String gender, String idCard, String phoneNumber, String email, String typeOfCustomer, String adress) {
+        super(id, name, date, gender, idCard, phoneNumber, email);
+        this.typeOfCustomer = typeOfCustomer;
+        this.adress = adress;
     }
 
-    public void booking() {
+    @Override
+    public String toString() {
+        return "Customer{" +
+                ", id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", date='" + date + '\'' +
+                ", gender='" + gender + '\'' +
+                ", idCard='" + idCard + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", email='" + email + '\'' +
+                "typeOfCustomer='" + typeOfCustomer + '\'' +
+                ", adress='" + adress + '\'' +
+                '}';
     }
 }

@@ -1,6 +1,6 @@
 package case_study.model.facility;
 
-public abstract class Facility {
+public  abstract class Facility {
     String serviceName;
     double area;
     double price;
@@ -46,4 +46,5 @@ public abstract class Facility {
     public void setType(String type) {
         this.type = type;
     }
+
 }

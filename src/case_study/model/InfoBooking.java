@@ -1,14 +1,21 @@
 package case_study.model;
 
 import java.util.Date;
-import java.util.Scanner;
 
-public class Booking {
+public class InfoBooking {
     private String idBooking;
-    private Date dateBegin;
-    private Date dateEnd;
+    private String dateBegin;
+    private String dateEnd;
     private String idCustomer;
     private String nameService;
+
+    public InfoBooking(String idBooking, String dateBegin, String dateEnd, String idCustomer, String nameService) {
+        this.idBooking = idBooking;
+        this.dateBegin = dateBegin;
+        this.dateEnd = dateEnd;
+        this.idCustomer = idCustomer;
+        this.nameService = nameService;
+    }
 
     public String getIdBooking() {
         return idBooking;
@@ -18,19 +25,19 @@ public class Booking {
         this.idBooking = idBooking;
     }
 
-    public Date getDateBegin() {
+    public String getDateBegin() {
         return dateBegin;
     }
 
-    public void setDateBegin(Date dateBegin) {
+    public void setDateBegin(String dateBegin) {
         this.dateBegin = dateBegin;
     }
 
-    public Date getDateEnd() {
+    public String getDateEnd() {
         return dateEnd;
     }
 
-    public void setDateEnd(Date dateEnd) {
+    public void setDateEnd(String dateEnd) {
         this.dateEnd = dateEnd;
     }
 
@@ -49,12 +56,5 @@ public class Booking {
     public void setNameService(String nameService) {
         this.nameService = nameService;
     }
-    public void booking(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Mã phòng");
-        System.out.println("Ngày bắt đầu");
-        System.out.println("Ngày kết thúc");
-        System.out.println("Mã khách hàng");
-        System.out.println("Tên dịch vụ");
-    }
+
 }

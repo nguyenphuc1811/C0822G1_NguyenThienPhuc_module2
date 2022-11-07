@@ -1,11 +1,10 @@
 package case_study.controller;
 
-import case_study.controller.FuramaController;
-
+import java.io.IOException;
 import java.util.Scanner;
 
 public class PromotionManagement {
-    public static void display() {
+    public static void display() throws IOException {
         int selection;
         Scanner scanner = new Scanner(System.in);
         System.out.println("1.\tDisplay list customers use service\n" +
