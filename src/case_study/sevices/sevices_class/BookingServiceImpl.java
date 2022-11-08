@@ -2,8 +2,8 @@ package case_study.sevices.sevices_class;
 
 import case_study.model.InfoBooking;
 import case_study.model.person.Customer;
-import case_study.sevices.util.InputCustomer;
-import case_study.sevices.util.WrtieAndReadFile;
+import case_study.sevices.util.CustomerInput;
+import case_study.sevices.util.FileReadWrite;
 
 import java.io.IOException;
 import java.util.*;
@@ -11,16 +11,16 @@ import java.util.*;
 public class BookingServiceImpl {
     public static Set<InfoBooking> treeSet = new TreeSet<>();
     public Customer bookingCustomer() throws IOException {
-        InputCustomer inputCustomer = new InputCustomer();
+        CustomerInput customerInput = new CustomerInput();
         String checkId;
         Scanner scanner = new Scanner(System.in);
         checkId = scanner.nextLine();
-        for (Customer customer : WrtieAndReadFile.readFile("src\\case_study\\model\\data_customer.csv")) {
+        for (Customer customer : FileReadWrite.readFile("src\\case_study\\model\\data_customer.csv")) {
             if (customer.getId().equals(checkId)) {
                 return customer;
             }
         }
-        return inputCustomer.addCustomer();
+        return customerInput.addCustomer();
     }
 
     public void booking() throws IOException {

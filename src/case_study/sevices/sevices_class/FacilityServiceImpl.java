@@ -4,7 +4,7 @@ import case_study.model.facility.Facility;
 import case_study.model.facility.Room;
 import case_study.model.facility.Villa;
 import case_study.sevices.FacilityService;
-import case_study.sevices.util.AddFacility;
+import case_study.sevices.util.FacilityAdd;
 
 import java.util.*;
 
@@ -34,16 +34,16 @@ public class FacilityServiceImpl implements FacilityService {
                 "2.\tAdd New Room\n" +
                 "3.\tBack to menu\n");
         Scanner scanner = new Scanner(System.in);
-        AddFacility addFacility = new AddFacility();
+        FacilityAdd facilityAdd = new FacilityAdd();
         do {
             int selection = Integer.parseInt(scanner.nextLine());
             switch (selection) {
                 case 1:
-                    facilityIntegerMap.put(addFacility.addVilla(), 0);
+                    facilityIntegerMap.put(facilityAdd.addVilla(), 0);
                     display();
                     return;
                 case 2:
-                    facilityIntegerMap.put(addFacility.addRoom(), 0);
+                    facilityIntegerMap.put(facilityAdd.addRoom(), 0);
                     display();
                     return;
                 case 3:

@@ -4,7 +4,7 @@ import case_study.model.person.Employee;
 
 import java.util.Scanner;
 
-public class InputEmployee {
+public class EmployeeInput {
     public Employee addEmployee() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("id: ");

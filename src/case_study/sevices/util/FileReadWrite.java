@@ -7,10 +7,10 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WrtieAndReadFile{
-    public static void  writerFile(List<Customer> listCustomer, String path,Boolean over) throws IOException {
+public class FileReadWrite {
+    public static void  writerFile(List<Customer> listCustomer, String path,Boolean mode) throws IOException {
         File file = new File(path);
-        FileWriter fileWriter = new FileWriter(file,over);
+        FileWriter fileWriter = new FileWriter(file,mode);
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         for (Customer customer : listCustomer) {
             bufferedWriter.write(customer.getId() + "," + customer.getName() + "," + customer.getDate() + "," + customer.getGender() + "," + customer.getIdCard() + "," + customer.getPhoneNumber() + "," + customer.getEmail() + "," + customer.getTypeOfCustomer() + "," + customer.getAdress());
@@ -30,4 +30,5 @@ public class WrtieAndReadFile{
         }
         return customerList;
     }
+    
 }

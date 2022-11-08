@@ -2,8 +2,8 @@ package case_study.sevices.sevices_class;
 
 import case_study.model.person.Customer;
 import case_study.sevices.CustomerService;
-import case_study.sevices.util.InputCustomer;
-import case_study.sevices.util.WrtieAndReadFile;
+import case_study.sevices.util.CustomerInput;
+import case_study.sevices.util.FileReadWrite;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -17,15 +17,15 @@ public class CustomerServiceImpl implements CustomerService {
 
     public void add() throws IOException {
         List<Customer> customers = new LinkedList<>();
-        InputCustomer inputCustomer = new InputCustomer();
-        customers.add(inputCustomer.addCustomer());
-        WrtieAndReadFile.writerFile(customers, PATH, true);
+        CustomerInput customerInput = new CustomerInput();
+        customers.add(customerInput.addCustomer());
+        FileReadWrite.writerFile(customers, PATH, true);
     }
 
     public void edit() throws IOException {
         System.out.println("Nhập id để sửa thông tin");
         String id = scanner.nextLine();
-        List<Customer> customerList = WrtieAndReadFile.readFile(PATH);
+        List<Customer> customerList = FileReadWrite.readFile(PATH);
         for (Customer customer : customerList) {
             if (customer.getId().equals(id)) {
                 int selection;
@@ -82,13 +82,13 @@ public class CustomerServiceImpl implements CustomerService {
                     }
                 } while (true);
             }
-            WrtieAndReadFile.writerFile(customerList, PATH, false);
+            FileReadWrite.writerFile(customerList, PATH, false);
         }
         System.out.println("Id nhập không tồn tại");
     }
 
     public void display() throws IOException {
-        for (Customer customer : WrtieAndReadFile.readFile(PATH)) {
+        for (Customer customer : FileReadWrite.readFile(PATH)) {
             System.out.println(customer);
         }
     }

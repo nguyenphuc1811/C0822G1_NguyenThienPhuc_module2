@@ -5,8 +5,8 @@ import case_study.model.facility.Villa;
 
 import java.util.Scanner;
 
-public final class AddFacility {
-    public AddFacility() {
+public final class FacilityAdd {
+    public FacilityAdd() {
     }
 
     public Room addRoom() {
@@ -23,8 +23,7 @@ public final class AddFacility {
         String type = scanner.nextLine();
         System.out.println("Dịch vụ bonus: ");
         String sevicesBonus = scanner.nextLine();
-        Room room = new Room(serviceName, area, price, maxPerson, type, sevicesBonus);
-        return room;
+        return new Room(serviceName, area, price, maxPerson, type, sevicesBonus);
     }
 
     public Villa addVilla() {
@@ -45,7 +44,6 @@ public final class AddFacility {
         double poolArea = Double.parseDouble(scanner.nextLine());
         System.out.print("Số tầng: ");
         int floor = Integer.parseInt(scanner.nextLine());
-        Villa villa = new Villa(serviceName, area, price, maxPerson, type, standardRoom, poolArea, floor);
-        return villa;
+        return new Villa(serviceName, area, price, maxPerson, type, standardRoom, poolArea, floor);
     }
 }

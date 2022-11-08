@@ -2,7 +2,7 @@ package case_study.sevices.sevices_class;
 
 import case_study.model.person.Employee;
 import case_study.sevices.EmployeeService;
-import case_study.sevices.util.InputEmployee;
+import case_study.sevices.util.EmployeeInput;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -24,8 +24,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public void add() {
-        InputEmployee inputEmployee = new InputEmployee();
-        employeeList.add(inputEmployee.addEmployee());
+        EmployeeInput employeeInput = new EmployeeInput();
+        employeeList.add(employeeInput.addEmployee());
     }
 
     @Override

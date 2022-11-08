@@ -6,6 +6,4 @@ public interface Service {
     void display() throws IOException;
 
     void add() throws IOException;
-
-
 }

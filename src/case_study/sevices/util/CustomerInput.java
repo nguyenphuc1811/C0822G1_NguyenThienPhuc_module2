@@ -3,7 +3,7 @@ package case_study.sevices.util;
 import case_study.model.person.Customer;
 import java.util.Scanner;
 
-public class InputCustomer {
+public class CustomerInput {
     public Customer addCustomer(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("id: ");
@@ -33,6 +33,7 @@ public class InputCustomer {
             switch (selection) {
                 case 1:
                     typeOfCustomer = Customer.MEMBER;
+                    break;
                 case 2:
                     typeOfCustomer = Customer.SILVER;
                     break;
